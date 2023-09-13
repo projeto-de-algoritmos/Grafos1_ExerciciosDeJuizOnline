@@ -17,7 +17,8 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
 **Linguagem**: Python e JS<br>
-**Framework**: e ReactJS<br>
+**Framework**: Flask e ReactJS<br>
+
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
