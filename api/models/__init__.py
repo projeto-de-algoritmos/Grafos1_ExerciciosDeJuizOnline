@@ -1,0 +1,1 @@
+from .Selecoes import getSelecoesData

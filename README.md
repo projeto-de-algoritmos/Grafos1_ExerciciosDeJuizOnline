@@ -27,8 +27,12 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para fazer uso da aplicação deve-se executar a aplicação rodando o seguite comando: 
+```bash
+cd api && flask run debug
+```
 
+Após o comando abra o seu navegar e coloque a url a seguir  http://127.0.0.1:5000
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
