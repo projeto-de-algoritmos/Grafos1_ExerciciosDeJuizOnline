@@ -59,8 +59,14 @@ $ diff saida.txt saidaX_desejada.txt
 ```
 
 ### [Exercício B](./ExercicioB_AtCoder/B.pdf)
+```
+python ./ExercicioB_AtCoder/B.py
+```
 
 ### [Exercício C](./exercicioC_Beecrowd/C.pdf)
+```
+python ./ExercicioB_AtCoder/B.py
+```
 
 
 
