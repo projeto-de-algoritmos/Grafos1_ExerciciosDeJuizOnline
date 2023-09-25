@@ -38,10 +38,16 @@ Para executar o Exercício A, você deve ter o seguinte software instalado em su
 - Um compilador C++.
 
 Certifique-se de que o compilador C++ esteja corretamente instalado e configurado em seu ambiente antes de prosseguir com a execução do exercício.
+
+Para executar os Exercício B e C, você deve ter o seguinte software instalado em sua máquina:
+
+- Python 3.x
+
+Certifique-se de que o Python esteja corretamente instalado e configurado em seu ambiente antes de prosseguir com a execução do exercício.
 ## Uso 
 
 ### [Exercício A](./ExercicioA_AtCoder/A.pdf) 
-Para compilar e executar o Exercio A digite no seu terminal os seguintes comandos:
+Para compilar e executar o Exercício A digite no seu terminal os seguintes comandos:
 
 Para compilar: 
 ```
@@ -59,14 +65,20 @@ $ diff saida.txt saidaX_desejada.txt
 ```
 
 ### [Exercício B](./ExercicioB_AtCoder/B.pdf)
+Para compilar e exercutar o Exercício B basta digitar no seu terminal o seguinte comando:
 ```
-python ./ExercicioB_AtCoder/B.py
+$ python ./ExercicioB_AtCoder/B.py
 ```
 
 ### [Exercício C](./exercicioC_Beecrowd/C.pdf)
+Para compilar e exercutar o Exercício C basta digitar no seu terminal o seguinte comando:
 ```
-python ./ExercicioB_AtCoder/B.py
+$ python ./ExercicioB_AtCoder/B.py
 ```
+
+## Apresentação
+[Link para a apresentação no youtube](https://youtu.be/ieM6hhqlJv0)
+
 
 
 
