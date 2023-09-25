@@ -1,4 +1,4 @@
-# Exercícios do juiz online vjudge
+# Exercícios de juiz online
 
 **Número da Lista**: 1<br>
 **Conteúdo da Disciplina**: Grafos 1<br>
