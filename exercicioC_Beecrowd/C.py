@@ -1,51 +1,42 @@
-class UnionFind:
-    def __init__(self, size):
-        self.parent = list(range(size))
-        self.rank = [0] * size
+from collections import defaultdict, deque
 
-    def find(self, x):
-        if self.parent[x] != x:
-            self.parent[x] = self.find(self.parent[x])
-        return self.parent[x]
+def find_minimum_points(points_count, links_data):
+    adjacency_list = defaultdict(list)
+    for link in links_data:
+        start, end = link.split()
+        adjacency_list[start].append(end)
+        adjacency_list[end].append(start)
 
-    def union(self, x, y):
-        root_x = self.find(x)
-        root_y = self.find(y)
+    def bfs(start, target):
+        visited = set()
+        queue = deque([(start, 0)])  # (point, steps)
 
-        if root_x == root_y:
-            return False
+        while queue:
+            point, steps = queue.popleft()
+            if point == target:
+                return steps
 
-        if self.rank[root_x] > self.rank[root_y]:
-            self.parent[root_y] = root_x
-        else:
-            self.parent[root_x] = root_y
-            if self.rank[root_x] == self.rank[root_y]:
-                self.rank[root_y] += 1
+            for neighbor in adjacency_list[point]:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    queue.append((neighbor, steps + 1))
 
-        return True
+        return float('inf')  # If no path is found
 
-def calcularDias(m, n, roads):
-    total_cost = sum(road[2] for road in roads)
-    roads.sort(key=lambda road: road[2])
-    min_span_tree_cost = 0
-    union_find = UnionFind(m)
+    entrance_to_cheese = bfs('Entrada', '*')
 
-    for road in roads:
-        x, y, z = road
-        if union_find.union(x, y):
-            min_span_tree_cost += z
+    cheese_to_exit = bfs('*', 'Saida')
 
-    return total_cost - min_span_tree_cost
+    total_points = entrance_to_cheese + cheese_to_exit
 
-def main():
-    while True:
-        m, n = map(int, input().split())
-        if m == 0 and n == 0:
-            break
+    return total_points
 
-        estradas = [tuple(map(int, input().split())) for _ in range(n)]
-        maxDias = calcularDias(m, n, estradas)
-        print(maxDias)
+points_count, links_count = map(int, input().split())
 
-if __name__ == "__main__":
-    main()
+links_data = []
+for _ in range(links_count):
+    link = input().strip()
+    links_data.append(link)
+
+min_points = find_minimum_points(points_count, links_data)
+print(min_points)  
