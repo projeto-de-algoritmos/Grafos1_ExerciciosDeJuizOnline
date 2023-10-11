@@ -66,18 +66,24 @@ $ diff saida.txt saidaX_desejada.txt
 
 ### [Exercício B](./ExercicioB_AtCoder/B.pdf)
 Para compilar e exercutar o Exercício B basta digitar no seu terminal o seguinte comando:
+Para compilar e exercutar o Exercício B basta digitar no seu terminal o seguinte comando:
 ```
+$ python ./ExercicioB_AtCoder/B.py
 $ python ./ExercicioB_AtCoder/B.py
 ```
 
 ### [Exercício C](./exercicioC_Beecrowd/C.pdf)
 Para compilar e exercutar o Exercício C basta digitar no seu terminal o seguinte comando:
+Para compilar e exercutar o Exercício C basta digitar no seu terminal o seguinte comando:
 ```
+$ python ./ExercicioB_AtCoder/B.py
 $ python ./ExercicioB_AtCoder/B.py
 ```
 
 ## Apresentação
-[Link para a apresentação no youtube](https://youtu.be/ieM6hhqlJv0)
+[Vídeo de apresentação](./apresentacao.mp4)
+
+[Link para o vídeo de apresentação no youtube](https://youtu.be/ieM6hhqlJv0)
 
 
 
