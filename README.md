@@ -80,9 +80,3 @@ $ python ./ExercicioB_AtCoder/B.py
 [Vídeo de apresentação](./apresentacao.mp4)
 
 [Link para o vídeo de apresentação no youtube](https://youtu.be/ieM6hhqlJv0)
-
-
-
-
-
-
