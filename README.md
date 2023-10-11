@@ -77,7 +77,9 @@ $ python ./ExercicioB_AtCoder/B.py
 ```
 
 ## Apresentação
-[Link para a apresentação no youtube](https://youtu.be/ieM6hhqlJv0)
+[Vídeo de apresentação](./apresentacao.mp4)
+
+[Link para o vídeo de apresentação no youtube](https://youtu.be/ieM6hhqlJv0)
 
 
 
