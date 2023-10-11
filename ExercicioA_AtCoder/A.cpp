@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 vector<bool> solve(int N, vector<pair<int, int>>& roads, vector<int>& heights) {
