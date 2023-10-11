@@ -73,7 +73,7 @@ $ python ./ExercicioB_AtCoder/B.py
 ### [Exercício C](./exercicioC_Beecrowd/C.pdf)
 Para compilar e exercutar o Exercício C basta digitar no seu terminal o seguinte comando:
 ```
-$ python ./ExercicioB_AtCoder/C.py
+$ python ./exercicioC_Beecrowd/C.py
 ```
 
 ## Apresentação
